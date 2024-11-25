@@ -1,0 +1,40 @@
+2024-11-25T17:43:06.833-03:00  INFO 16564 --- [restartedMain] b.c.e.d.DeliveryRegistrationApplication  : Starting DeliveryRegistrationApplication using Java 17.0.6 with PID 16564 (C:\Project\delivery-registration\target\classes started by ellen in C:\Project\delivery-registration)
+2024-11-25T17:43:06.839-03:00 DEBUG 16564 --- [restartedMain] b.c.e.d.DeliveryRegistrationApplication  : Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-11-25T17:43:06.839-03:00  INFO 16564 --- [restartedMain] b.c.e.d.DeliveryRegistrationApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-11-25T17:43:06.938-03:00  INFO 16564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-25T17:43:06.943-03:00  INFO 16564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-25T17:43:09.575-03:00  INFO 16564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25T17:43:09.718-03:00  INFO 16564 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interface.
+2024-11-25T17:43:11.690-03:00  INFO 16564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-25T17:43:11.717-03:00  INFO 16564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-25T17:43:11.718-03:00  INFO 16564 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-25T17:43:11.874-03:00  INFO 16564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-25T17:43:11.875-03:00  INFO 16564 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4932 ms
+2024-11-25T17:43:12.142-03:00  INFO 16564 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-25T17:43:12.692-03:00  INFO 16564 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22c7a8f0
+2024-11-25T17:43:12.695-03:00  INFO 16564 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-25T17:43:12.710-03:00  INFO 16564 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/delivery'
+2024-11-25T17:43:13.152-03:00  INFO 16564 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25T17:43:13.355-03:00  INFO 16564 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-25T17:43:13.485-03:00  INFO 16564 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-25T17:43:14.067-03:00  INFO 16564 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-25T17:43:15.575-03:00  INFO 16564 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-25T17:43:15.656-03:00  INFO 16564 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T17:43:16.441-03:00  WARN 16564 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25T17:43:18.001-03:00  INFO 16564 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-25T17:43:18.016-03:00  INFO 16564 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-11-25T17:43:18.207-03:00  INFO 16564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-25T17:43:18.230-03:00  INFO 16564 --- [restartedMain] b.c.e.d.DeliveryRegistrationApplication  : Started DeliveryRegistrationApplication in 11.996 seconds (process running for 13.228)
+2024-11-25T17:43:18.520-03:00  INFO 16564 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-25T17:43:18.521-03:00  INFO 16564 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-25T17:43:18.523-03:00  INFO 16564 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-25T17:43:44.720-03:00  INFO 16564 --- [http-nio-8080-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 534 ms
+2024-11-25T17:43:56.086-03:00  INFO 16564 --- [http-nio-8080-exec-3] b.c.e.d.service.DeliveryService          : Buscando entrega com ID: 1
+2024-11-25T17:43:56.244-03:00  WARN 16564 --- [http-nio-8080-exec-3] b.c.e.d.service.DeliveryService          : Entrega com ID 1 não encontrada
+2024-11-25T17:45:24.227-03:00  INFO 16564 --- [http-nio-8080-exec-5] b.c.e.d.service.DeliveryService          : Atualizando entrega com ID: 1
+2024-11-25T17:45:24.234-03:00 ERROR 16564 --- [http-nio-8080-exec-5] b.c.e.d.service.DeliveryService          : Entrega com ID 1 não encontrada
+2024-11-25T17:57:20.019-03:00 DEBUG 16564 --- [http-nio-8080-exec-10] b.c.e.d.service.DeliveryService          : Recuperando todas as entregas
+2024-11-25T17:57:20.243-03:00 DEBUG 16564 --- [http-nio-8080-exec-10] b.c.e.d.service.DeliveryService          : Total de entregas recuperadas: 0
+2024-11-25T17:57:39.461-03:00  INFO 16564 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T17:57:39.483-03:00  INFO 16564 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-25T17:57:39.518-03:00  INFO 16564 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
