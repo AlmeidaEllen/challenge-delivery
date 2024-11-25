@@ -19,7 +19,7 @@
 - Consultas com Spring Data JPA
 - Injeção de Dependências 
 - Tratamento de respostas de erro
-- Geração automática do Swagger 
+- Geração automática do Swagger (OpenAPI)
 
 
 <h2 id="started">Como executar</h2>
