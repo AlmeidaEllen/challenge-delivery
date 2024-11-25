@@ -49,3 +49,5 @@ git clone your-project-url-in-github
 - Os endpoints são visualizados através do Swagger em http://localhost:8080/swagger-ui.html
 
 - Para verificar a saúde da aplicação (Health Checks) em http://localhost:8080/actuator/health
+
+- Os logs são visualizados no console e gravados no arquivo app.log
